@@ -1,17 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace CreateStruct
+namespace Task1
 {
-    class Program
+    class Task1
     {
         static void Main(string[] args)
         {
-            Person p = new Person("Tony", "Allen", 32, Person.Genders.Male);
+            Person p = new Person("Rasim", "Kochaliev", 18, Person.Genders.Male);
             Console.WriteLine(p.ToString());
 
-            Manager m = new Manager("Tony", "Allen", 32, Manager.Genders.Male, "925-409-5443", "223b");
+            Manager m = new Manager("Rasim", "Kochaliev", 18, Manager.Genders.Male, "925-409-5443", "223b");
             Console.WriteLine(m);
         }
         class Person
